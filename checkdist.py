@@ -104,9 +104,18 @@ if __name__ == "__main__":
     (t,best),besti = mini((there,back))
 
     print "Total time:", datetime.timedelta(seconds=t)
+<<<<<<< HEAD
     
+=======
+>>>>>>> d569cb62fcbd1f50c72b705a5076567e3b489235
 
     for step in best:
         print "From {0} to {1} by {2} takes {3}".format(step[2][0], step[2][1], 
             step[1][0], datetime.timedelta(seconds=step[0])).replace("WALKING", "BICYCLING")
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> d569cb62fcbd1f50c72b705a5076567e3b489235
